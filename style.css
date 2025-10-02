@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #844614;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 850px;
+  height: 500px;
+  
+  overflow: hidden;
+  background: #0a3d62;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+/* Lado esquerdo */
+.esquerdo {
+  flex: 1;
+  background: url('img/login.jpg') no-repeat center center/cover;
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Lado direito */
+.direito {
+  flex: 1;
+  background:#053658;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.direito h2 {
+  color: #c87e29;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.direito form {
+  display: flex;
+  flex-direction: column;
+}
+
+.direito input {
+  margin: 8px 0;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.termos {
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.termos a {
+  color: #cdcfd1;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  background: #fff;
+  color: #060e79;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #393d7ec0;
+}
+
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 14px;
+  color: #f0e9e9;
+}
+
+/* Botões sociais */
+.google {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  margin: 5px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.google {
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
